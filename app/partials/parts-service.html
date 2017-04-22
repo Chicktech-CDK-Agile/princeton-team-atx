@@ -3,21 +3,142 @@
         <h2>Parts and Service</h2>
     </div>
 </div>
+</div>
 <div class="row">
     <div class="col-lg-6">
+        <div class="row">
+        <div class="col-lg-12">
         <h4>Enter Date of Service (mm/dd/yyyy)</h4>
         <div class="input-group col-lg-12">
             <input type="text" class="form-control search-bar" placeholder="Date" aria-describedby="service-date">
         </div>
-    </div>
-    <div class="col-lg-6">
-        <h4>Enter Service Reason</h4>
-        <div class="input-group col-lg-12">
-            <input type="text" class="form-control search-bar" placeholder="What seems to be the problem?" aria-describedby="service-reason">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Name</h4>
+                <div class="input-group col-lg-12">
+                    <input type="text" class="form-control search-bar" placeholder="Name" aria-describedby="service-date">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Email and/or Phone Number</h4>
+                <div class="input-group col-lg-12">
+                    <input type="text" class="form-control search-bar" placeholder="Email/Phone Number" aria-describedby="service-date">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Service Location</h4>
+                <div class="input-group col-lg-12">
+                    <input id="One_of_our_locations" type="radio" placeholder="One of our locations" aria-describedby="service-date">
+                        <label for="One_of_our_locations">One of our locations</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="input-group col-lg-12">
+                    <input id="Service_at_Home" type="radio" placeholder="at your home" aria-describedby="service-date">
+                        <label for="Service_at_Home">Service at Home</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Home Address (if you checked the "at home button above")</h4>
+                <div class="input-group col-lg-12">
+                    <input type="text" class="form-control search-bar" placeholder="Home Address" aria-describedby="service-date">
+                </div>
+            </div>
         </div>
     </div>
-</div>
-
+    <div class="col-lg-6">
+        <div class="row">
+            <div class="col-lg-12">
+        <h4>Reason For Service Needed</h4>
+        <div class="input-group col-lg-12">
+            <textarea rows="4" cols="50" class="form-control search-bar" placeholder="What seems to be the problem?" aria-describedby="service-reason"></textarea>
+        </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Car Make</h4>
+                <div class="input-group col-lg-12">
+                    <select class="form-control search-bar" placeholder="What parts do we need to look for?" aria-describedby="service-date">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Body Type</h4>
+                <div class="input-group col-lg-12">
+                    <select class="form-control search-bar" placeholder="What parts do we need to look for?" aria-describedby="service-date">
+                        <option value="Compact">Compact</option>
+                        <option value="Sidan">Sidan</option>
+                        <option value="SUV">SUV</option>
+                        <option value="Hatchback">Hatchback</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Car Year</h4>
+                <div class="input-group col-lg-12">
+                    <select class="form-control search-bar" placeholder="What parts do we need to look for?" aria-describedby="service-date">
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2005">2005</option>
+                        <option value="2018">2018</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>VIN</h4>
+                <div class="input-group col-lg-12">
+                    <input type="text" class="form-control search-bar" placeholder="VIN" aria-describedby="service-date">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Suggested services</h4>
+                <div class="input-group col-lg-12">
+                    <input id="oil_change" type="checkbox" placeholder="One of our locations" aria-describedby="service-date">
+                    <label for="oil_change">Oil Change</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="input-group col-lg-12">
+                    <input id="Milege Service" type="checkbox" placeholder="One of our locations" aria-describedby="service-date">
+                    <label for="Milege Service">Mileage Service</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="input-group col-lg-12">
+                    <input id="Factory Recalls" type="checkbox" placeholder="One of our locations" aria-describedby="service-date">
+                    <label for="Factory Recalls">Factory Recall</label>
+                </div>
+            </div>
+        </div>
 <div class="row submit-button">
     <div class="col-lg-6">
         <button type="button" class="btn btn-success">Submit</button>
