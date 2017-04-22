@@ -2,6 +2,10 @@
 @import '../../bower_components/font-awesome/css/font-awesome.css';
 @import '../../bower_components/bootstrap/dist/css/bootstrap.css';
 
+.offers1 { color: darkblue; font-weight: bold }
+
+.offers2 { font-style: italic}
+
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;

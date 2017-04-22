@@ -1,5 +1,15 @@
 /* Created by Artisteer v4.3.0.60745 */
 
+.text_color
+{
+   color: #843534;
+}
+
+.text_color_two
+{
+   color: #23527c;
+}
+
 #art-main
 {
    background: #FFFFFF url('../img/page.jpeg') top center no-repeat scroll;
@@ -8,7 +18,7 @@
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
-   text-align: justify;
+   text-align: left;
    position: relative;
    width: 100%;
    min-height: 100%;
